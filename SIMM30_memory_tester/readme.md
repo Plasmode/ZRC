@@ -41,9 +41,9 @@ Two SIMM30 sockets are ganged together:
 |29	|	|NC|
 |30	|5V	|T2|
 
-CPLD Modifications
+### CPLD Modifications
 Since ZRC already has a 2megx8 DRAM, the mulitplexed addresses for DRAM are duplicated to drive T11-T21 (MA0-MA10). The RAS, CAS, and WE to DRAM are also duplicated in T4, T5, R8-2, respectively. The control lines to onboard 2megx8 DRAM is negated, so ZRC runs from the SIMM30 memory.
 
-CPLD design files
+[CPLD design](zrc_rev1_cpld_design_files_simm_tester.zip) files
 
 b
