@@ -38,7 +38,7 @@ The targeted application software for ZRC is ROMWBW. ROMWBW requires 512K of RAM
   - CPLD [serial receive](zrc_rev1_3pcb_cpld_design_serial-receiver_scm.pdf) schematic
   - CPLD [WS2812 driver](zrc_rev1_3pcb_cpld_design_ws2812_scm.pdf) schematic
   - CPLD [DRAM controller](zrc_rev1_3pcb_cpld_design_dram-controller_scm.pdf) schematic
-- Engineering changes to add hardware handshakes← Engineering changes not required for rev1.3 pc board
+- [~~Engineering changes~~](Rev1_1EC.md) to add hardware handshakes← Engineering changes not required for rev1.3 pc board
 
 Modification to 6-pin CP2102 USB-serial adapter to accept CTS handshake
 
