@@ -6,6 +6,7 @@ ZRC has a 2 meg x 8 DRAM that is mapped to the Z80 memory space as follow:
   - Bank select register is write only register located at I/O address 0x1F
   - Bank select register is 0x1F at reset which maps the highest 32K DRAM block to Z80's high and low 32K memory.
   - Bank select register may contains value from 0x0 to 0x1F; 0x0 maps DRAM's lowest 32K block to Z80's low 32K memory; 0x1 maps DRAM's next lowest 32K block to Z80's low 32K memory, so on.
+    
 ZRC has a simple serial port operating at a fixed baud rate of 115200 N-8-1. The transmit register has no buffer and the receive register has one buffer. The following is I/O address of the serial port:
 
 - I/O address 0x80 is serial status register with read access where bit 0 is serial data ready and bit 1 is serial transmit empty. Data bits 2 to 7 are undefined.
