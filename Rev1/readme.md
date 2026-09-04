@@ -45,10 +45,10 @@ Modification to 6-pin CP2102 USB-serial adapter to accept CTS handshake
 - Memory map
 
 ### Software
-- ROMCPLD, 64-byte bootstrap ROM resides in CPLD
-- Serial loader, 256-byte program loaded by ROMCPLD into 0xB000. ← load the binary file ZRSerld.bin
-- ZRCMon, rev0.7,
-- ROMWBW for ZRC. This is ROMWBW binary image converted to Extended Intel Hex file to be loaded into ZRC
+- [ROMCPLD](software/ZRC_rev1_64byteROM_in_CPLD.zip), 64-byte bootstrap ROM resides in CPLD
+- [Serial loader](software/zrc_rev1_software_zrserloader.zip), 256-byte program loaded by ROMCPLD into 0xB000. ← load the binary file ZRSerld.bin
+- [ZRCMon](software/ZRC_rev1_software_zrcmon_v07.zip), rev0.7,
+- [ROMWBW for ZRC](software/ZRC_rev1_software_RomWBW_intelHEX.zip). This is ROMWBW binary image converted to Extended Intel Hex file to be loaded into ZRC
 ### Manuals
 - Getting started with ZRC.
 - Creating new CF disk for ZRC
