@@ -57,20 +57,18 @@ The targeted application software for ZRC is ROMWBW. ROMWBW requires 512K of RAM
 Construction blog of a ZRC
 
 ### ZRC in action
-15-second video of ZRC booting into ROMWBW, https://www.youtube.com/watch?v=OkKbqTN_fvo
+[15-second video](https://www.youtube.com/watch?v=OkKbqTN_fvo) of ZRC booting into ROMWBW, https://www.youtube.com/watch?v=OkKbqTN_fvo
 
 ZRC driving 128×64 OLED display over I2C bus
 
-www.retrobrewcomputers.org_lib_plugins_ckgedit_fckeditor_userfiles_image_builderpages_plasmo_zrc_i2c_on_zrc.jpg
+![zrc_oled](ZRC_rev1_I2C_64x128OLED.jpg)
 
-ZRC driving WS2812B RGB LED with 14.7MHz clock as well as 7.37MHz Z80 clock, see Google Forum posts. <– need to document it fully.
+ZRC driving WS2812B RGB LED with 14.7MHz clock as well as 7.37MHz Z80 clock, see [Google Forum posts](https://groups.google.com/g/retro-comp/c/L3W7TaDnX5A). <– need to document it fully.
 
-www.retrobrewcomputers.org_lib_plugins_ckgedit_fckeditor_userfiles_image_builderpages_plasmo_zrc_zrc_driving_ws2812b.jpg
+![ZRC_WS2812b](zrc_rev1_driving_ws2812b.jpg)
 
 30-pin SIMM memory tester
 ZRC modified to test 30-pin SIMM memory. Rev2 of ZRC is based on this prototype.
 
-www.retrobrewcomputers.org_lib_plugins_ckgedit_fckeditor_userfiles_image_builderpages_plasmo_zrc_dsc_77870110.jpg
+![ZRC_SIMM30](ZRC_rev1_prototype_SIMM30.jpg)
 
-builderpages/plasmo/zrc.txt · Last modified: 2025/02/02 20:36 by plasmo
-Show pagesourceOld revisions
