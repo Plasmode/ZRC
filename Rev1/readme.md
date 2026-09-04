@@ -1,5 +1,6 @@
 ZRC is derived from the ZoRC experiment. The basic notion is that large RAM and fast serial upload enable a diskless CP/M SBC. However, just in case that idea didn't work out, ZRC has an optional compact flash interface. The targeted software for ZRC is ROMWBW.
 
+![rev1.1top](zrc_rev1.1_topview_annotated.jpg)
 ### Features
 - Z80 at 14.7MHz
 - 2 meg x 8 DRAM
@@ -28,19 +29,15 @@ The targeted application software for ZRC is ROMWBW. ROMWBW requires 512K of RAM
 
 ### Design Files
 - Schematic
-
 - Gerber photoplots ← updated 2/5/24 for rev1.3 pc board
-
 - CPLD equation ← updated 2/5/24 for rev1.3 pc board
-
 - CPLD schematic in PDF format
-
-CPLD top schematic
-CPLD serial transmit schematic
-CPLD serial receive schematic
-CPLD WS2812 driver schematic
-CPLD DRAM controller schematic
-Engineering changes to add hardware handshakes← Engineering changes not required for rev1.3 pc board
+  - CPLD top schematic
+  - CPLD serial transmit schematic
+  - CPLD serial receive schematic
+  - CPLD WS2812 driver schematic
+  - CPLD DRAM controller schematic
+- Engineering changes to add hardware handshakes← Engineering changes not required for rev1.3 pc board
 
 Modification to 6-pin CP2102 USB-serial adapter to accept CTS handshake
 
@@ -53,9 +50,7 @@ Modification to 6-pin CP2102 USB-serial adapter to accept CTS handshake
 - ROMWBW for ZRC. This is ROMWBW binary image converted to Extended Intel Hex file to be loaded into ZRC
 ### Manuals
 - Getting started with ZRC.
-
 - Creating new CF disk for ZRC
-
-Quartus Design file of a simple serial port.
+- Quartus Design file of a simple serial port.
 
 Construction blog of a ZRC
