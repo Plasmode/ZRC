@@ -21,7 +21,7 @@ ZRC rev2 uses SIMM30 memory as its main memory. It can accommodate up to 32 meg 
 - Memory map
 
 ### Software
-- ROMCPLD, 64-byte bootstrap ROM resides in CPLD
-- Serial loader, 256-byte program loaded by ROMCPLD into 0xB000. ← load the binary file ZRSerld.bin
-- ZRCMon, rev0.7,
-- ROMWBW for ZRC. This is ROMWBW binary image converted to Extended Intel Hex file to be loaded into ZRC
+- [ROMCPLD](../Rev1/software/ZRC_rev1_64byteROM_in_CPLD.zip), 64-byte bootstrap ROM resides in CPLD
+- [Serial loader](../Rev1/software/zrc_rev1_software_zrserloader.zip), 256-byte program loaded by ROMCPLD into 0xB000. ← load the binary file ZRSerld.bin
+- [ZRCMon](../Rev1/software/ZRC_rev1_software_zrcmon_v07.zip), rev0.7,
+- [ROMWBW for ZRC](../Rev1/software/ZRC_rev1_software_RomWBW_intelHEX.zip). This is ROMWBW binary image converted to Extended Intel Hex file to be loaded into ZRC
