@@ -72,3 +72,5 @@ ZRC modified to test 30-pin SIMM memory. Rev2 of ZRC is based on this prototype.
 
 ![ZRC_SIMM30](ZRC_rev1_prototype_SIMM30.jpg)
 
+## ToDo
+photo of ZRC ver1.3.  Explain the difference of version 1.1 and 1.3.  What about v1.2?
