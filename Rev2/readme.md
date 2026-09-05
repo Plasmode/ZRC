@@ -6,17 +6,17 @@ ZRC rev2 uses SIMM30 memory as its main memory. It can accommodate up to 32 meg 
 - Z80 at 14.7MHz
 - Dual SIMM-30 sockets
 - EPM7128SQC100 CPLD
-- Emulate MC6850 serial port
-- DRAM controller
-- 256 banks of 32K RAM
-- Glue logic
+  - Emulate MC6850 serial port
+  - DRAM controller
+  - 256 banks of 32K RAM
+  - Glue logic
 - Compact Flash interface
 - RC2014 Bus Interface
 - I2C Bus
 ### Design Files
-- Schematic
-- Gerber photoplots
-- CPLD design files
+- [Schematic](zrc_rev2_simm30_scm.pdf)
+- [Gerber photoplots](zrc_r2_gerber.zip)
+- [CPLD design](zrc_rev2_simm30_cpld_design_files_8meg_256banks.zip) files
 - Bill of Materials
 - Memory map
 
